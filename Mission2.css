@@ -18,12 +18,7 @@
     align-items: center;
     justify-content: space-between;
 }
-.img {
-    width: 120px;
-    cursor: pointer;
-}
 .navbar ul li{
-    /*list-style: none;*/
     display: inline-block;
     margin: 0 20px;
 }
@@ -32,11 +27,6 @@
     color: antiquewhite;
     text-transform: uppercase;
 }
-.navbar ul li::after{
-content: '';
-height: 3px;
-width: 100%;
-}
 .content {
     width: 100%;
     position: absolute;
@@ -44,7 +34,6 @@ width: 100%;
     text-align: center;
     color: black;
 }
-
 .content h1 {
     font-size: 70px;
     font-family: cursive;
@@ -70,51 +59,33 @@ button{
 }
 a {
     color: black;
+    text-decoration: none;
 }
-/*.slide{
-    position: relative;
-        height: 100vh;
-        width: 100%;
-        background-size: 100%;
+
+/* Subscribe html*/
+.subscribe {
+    Float: right;
+        margin-top: 300px;
+        color: rgb(149, 116, 52);
+        font-weight: bold;
+        margin-right: 90px;
 }
-.slider{
-    width: 800px;
-    height: 500px;
-    border-radius: 10px;
-}
-.slides{
-    width: 500%;
-    height: 500px;
-    display: flex;
-}
-.slides input{
-    display: none;
-}
-.slide{
-    width: 20%;
-    transition: 2s;
-}
-.slide img{
-    width: 1000px;
-    height: 1000px;
-}
-.navigationradio{
-    position: absolute;
-    width: 800px;
-    margin-top: -40px;
-    display: flex;
-    justify-content: center;
-}
-.manualbtn{
-    border: 2px solid #40d3dc;
-    padding: 5px;
-    border-radius: 10px;
+#Submitbtn {
+    background-color: rgb(146, 111, 42);
+    padding: .5rem;
+    color: black;
     cursor: pointer;
-    transition: 1s;
+    width: auto;
+    font-weight: bold;
+    margin-top: 20px;
 }
-.manualbtn:not(:last-child){
-    margin-right: 40px;
+label {
+    display: block;
 }
-.manualbtn:hover{
-    background: #40d3dc;
-} */
+
+/* eng html
+.bttn {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bridal Makeup</title>
+    <script src="Mission2.js"></script>
+    <link rel="stylesheet" href="Mission2.css">
+    <style>
+    body {margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(63, 92, 92);}
+    </style>
+</head>
+<body>
+ <img id="img" src="bride1.png" style="width: 800px; height: 900px;">
+    
+ <script>
+    document.getElementById("img").addEventListener("click", changeimage);
+
+    function changeimage() {
+      const imagesarray = ['bride1.png', 'bride2.png', 'bride3.png', 'bride4.png']
+        let image = document.getElementById("img").src 
+        const current = image.split('/')[3]
+        for (let i = 0; i < imagesarray.length; i++) {
+            if (current === imagesarray[i] && current !== "bride4.png") {
+                document.getElementById("img").src = imagesarray[i+1]
+            }
+            else if (current === 'bride4.png'){
+                document.getElementById("img").src = imagesarray[0]
+            }
+        }
+    }
+
+ </script>
+
+</body>
+</html>
