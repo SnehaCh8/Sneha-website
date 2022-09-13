@@ -14,7 +14,6 @@ body {
     width: 120px;
     height: 150px;
     border-radius: 50%;
-    /*border: 2px solid #da4357;*/
     margin: 5% auto 0 auto;
     text-align: center;
 }
@@ -44,7 +43,7 @@ a {
     text-decoration: none;
     background: #a95863;
     color: white;
-    padding: 8px 50px;
+    padding: 10px 50px;
     display: inline-block;
     margin: 10% auto;
     text-transform: uppercase;

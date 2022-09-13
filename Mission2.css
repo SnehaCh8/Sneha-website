@@ -15,8 +15,8 @@
     margin: auto;
     padding: 10px 0;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+  align-items: center;
+   justify-content: space-between;
 }
 .navbar ul li{
     display: inline-block;
@@ -39,7 +39,7 @@
     font-family: cursive;
     font-style: italic;
     margin-top: 80px;
-    color: grey;
+    color: rgb(235, 226, 226);
 }
 p{
     font-size: 25px;
@@ -81,11 +81,4 @@ a {
 }
 label {
     display: block;
-}
-
-/* eng html
-.bttn {
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
 }
